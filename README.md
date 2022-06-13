@@ -8,7 +8,7 @@ This is the lab resources for SUSTech EE346 2022 final lab.
   
   cd ~/catkin_ws/src
   
-  git clone https://github.com/tianyanyushui/EE346-lab7
+  git clone https://github.com/tf1423079696/EE346-final-lab.git
   
 ## 2. Catkin make the EE346-lab6 package
   cd ..
@@ -17,11 +17,14 @@ This is the lab resources for SUSTech EE346 2022 final lab.
 
 ## 3. Add course models to the end of ~/.bashrc in computer(replace 192.168.3.244 as your comuter ip)
    export TURTLEBOT3_MODEL=burger
+   
    export ROS_MASTER_URI=http://192.168.3.244:11311
+   
    export ROS_HOSTNAME=192.168.3.244
    
 ## 4. Add course models to the end of ~/.bashrc in your robot(replace 192.168.3.244 as your comuter ip,192.168.3.81 as your robot ip)
    export ROS_MASTER_URI=http://192.168.3.244:11311
+   
    export ROS_HOSTNAME=192.168.3.81
 
 ## 5. Source the .bashrc file(in both computer and robot)
@@ -36,19 +39,25 @@ This is the lab resources for SUSTech EE346 2022 final lab.
    
 ## 7. Run the project
    
-   cd ~/catkin_ws/src/EE346-lab7/
-   roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map_new.yaml
+   cd ~/catkin_ws/src/EE346-final-lab/
+   
+   roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=maps/map.yaml
    
    In a new terminal:
-   cd ~/catkin_ws/src/EE346-lab7/EE346-lab7
+   
+   cd ~/catkin_ws/src/EE346-lab7/EE346-final-lab/
+   
    rosrun sound_play soundplay_node.py
    
    In a new terminal:
-   cd ~/catkin_ws/src/EE346-lab7/EE346-lab7
-   python run.py 
+   
+   cd ~/catkin_ws/src/EE346-lab7/EE346-final-lab/
+   
+   python final_run.py 
 
 ## 8. Stop the robot
-   cd ~/catkin_ws/src/EE346-lab7/EE346-lab7
+   cd ~/catkin_ws/src/EE346-lab7/EE346-final-lab/
+   
    python lane_following_reset.py 
 
    
