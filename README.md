@@ -39,9 +39,11 @@ This is the lab resources for SUSTech EE346 2022 final lab.
    
 ## 7. Run the project
    
+   To run the navigation node, you need to first move "map.pgm" (or "map_new.pgm") and "map.yaml" (or "map_new.yaml") to /home directory ("map.pgm" and "map.yaml" are map files with lower accuracy, while "map_new.pgm" and "map_new.yaml" with higher accuracy). However, we use "map.pgm" and "map.yaml" in the final lab.
+   
    cd ~/catkin_ws/src/EE346-final-lab/
    
-   roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=maps/map.yaml
+   roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml
    
    In a new terminal:
    
