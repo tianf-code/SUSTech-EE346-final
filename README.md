@@ -39,7 +39,7 @@ This is the lab resources for SUSTech EE346 2022 final lab.
    
 ## 7. Run the project
    
-   To run the navigation node, you need to first move "map.pgm" (or "map_new.pgm") and "map.yaml" (or "map_new.yaml") from /maps to /home directory ("map.pgm" and "map.yaml" are map files with lower accuracy, while "map_new.pgm" and "map_new.yaml" with higher accuracy). However, we use "map.pgm" and "map.yaml" in the final lab.
+   To run the navigation node, you need to first move "map.pgm" (or "map_new.pgm") and "map.yaml" (or "map_new.yaml") from /maps to /home directory. We use "map.pgm" and "map.yaml" in the final lab.
    
    cd ~/catkin_ws/src/EE346-final-lab/
    
