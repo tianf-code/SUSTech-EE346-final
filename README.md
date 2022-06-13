@@ -1,4 +1,4 @@
-# lane following
+# EE346-Final-Lab
 This is the lab resources for SUSTech EE346 2022 final lab.
 
 # Usage
@@ -47,18 +47,18 @@ This is the lab resources for SUSTech EE346 2022 final lab.
    
    In a new terminal:
    
-   cd ~/catkin_ws/src/EE346-lab7/EE346-final-lab/
+   cd ~/catkin_ws/src/EE346-final-lab/
    
    rosrun sound_play soundplay_node.py
    
    In a new terminal:
    
-   cd ~/catkin_ws/src/EE346-lab7/EE346-final-lab/
+   cd ~/catkin_ws/src/EE346-final-lab/
    
    python final_run.py 
 
 ## 8. Stop the robot
-   cd ~/catkin_ws/src/EE346-lab7/EE346-final-lab/
+   cd ~/catkin_ws/src/EE346-final-lab/
    
    python lane_following_reset.py 
 
