@@ -1,11 +1,13 @@
 # lane following
-This is the lab resources for SUSTech EE346.
+This is the lab resources for SUSTech EE346 2022 final lab.
 
 # Usage
 
 ## 1. Clone the source code
   sudo apt-get install ros-melodic-navigation
+  
   cd ~/catkin_ws/src
+  
   git clone https://github.com/tianyanyushui/EE346-lab7
   
 ## 2. Catkin make the EE346-lab6 package
