@@ -27,7 +27,7 @@ This is the lab resources for SUSTech EE346 2022 final lab.
    
 ## 4. Add course models to the end of ~/.bashrc in your robot
 
-**(replace 192.168.3.244 as your comuter ip, 192.168.3.81 as your robot ip)**
+**(replace 192.168.3.244 with your comuter ip, 192.168.3.81 with your robot ip)**
 
    export ROS_MASTER_URI=http://192.168.3.244:11311
    
@@ -38,7 +38,7 @@ This is the lab resources for SUSTech EE346 2022 final lab.
    
 ## 6. Connect your robot 
 
-**(replace 192.168.3.81 as your robot ip)**
+**(replace 192.168.3.81 with your robot ip)**
    
    roscore 
    
