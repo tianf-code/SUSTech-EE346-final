@@ -15,7 +15,7 @@ This is the lab resources for SUSTech EE346 2022 final lab.
   
   catkin_make
 
-## 3. Add course models to the end of ~/.bashrc in computer(replace 192.168.3.244 as your comuter ip)
+## 3. Add course models to the end of ~/.bashrc in computer **(replace 192.168.3.244 with your comuter ip)**
    export TURTLEBOT3_MODEL=burger
    
    export ROS_MASTER_URI=http://192.168.3.244:11311
@@ -30,7 +30,7 @@ This is the lab resources for SUSTech EE346 2022 final lab.
 ## 5. Source the .bashrc file(in both computer and robot)
    source ~/.bashrc
    
-## 6. Connect your robot(replace 192.168.3.81 as your robot ip)
+## 6. Connect your robot **(replace 192.168.3.81 as your robot ip)**
    roscore 
    
    in a new  terminal: ssh pi@192.168.3.81
