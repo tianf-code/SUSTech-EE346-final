@@ -71,7 +71,9 @@ This is the lab resources for SUSTech EE346 2022 final lab.
    
    python lane_following_reset.py 
 
-   
+# Demo Picture
+
+![TurtleBot3](https://github.com/tf1423079696/EE346-final-lab/blob/main/pictures/1.JPG)
  
    
 
