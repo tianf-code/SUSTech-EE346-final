@@ -1,6 +1,8 @@
 # EE346-Final-Lab
 This is the lab resources for SUSTech EE346 2022 final lab.
 
+![TurtleBot3](https://github.com/tf1423079696/EE346-final-lab/blob/main/pictures/2.png)
+
 # Usage
 
 ## 1. Clone the source code
@@ -73,11 +75,9 @@ This is the lab resources for SUSTech EE346 2022 final lab.
 
 # Demo Picture
 
-![Start](https://github.com/tf1423079696/EE346-final-lab/blob/main/pictures/2.png)
-
 ![Testing](https://github.com/tf1423079696/EE346-final-lab/blob/main/pictures/3.png)
 
-![TurtleBot3](https://github.com/tf1423079696/EE346-final-lab/blob/main/pictures/4.png)
+![Start](https://github.com/tf1423079696/EE346-final-lab/blob/main/pictures/4.png)
    
 
 
