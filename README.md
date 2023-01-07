@@ -74,7 +74,14 @@ This is the lab resources for SUSTech EE346 2022 final lab.
 # Demo Picture
 
 ![TurtleBot3](https://github.com/tf1423079696/EE346-final-lab/blob/main/pictures/1.JPG)
- 
+
+![Start](https://github.com/tf1423079696/EE346-final-lab/blob/main/pictures/2.png)
+
+![Testing](https://github.com/tf1423079696/EE346-final-lab/blob/main/pictures/3.png)
+
+![TurtleBot3](https://github.com/tf1423079696/EE346-final-lab/blob/main/pictures/4.png)
+
+![Tenure](https://github.com/tf1423079696/EE346-final-lab/blob/main/pictures/5.JPG)
    
 
 
